@@ -1,5 +1,5 @@
 {% set name = "fastmdanalysis" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/aai-research-lab/FastMDAnalysis/archive/v{{ version }}.tar.gz
-  sha256: 2546cadf3930869baa0a99619a59724326759033631c5e45b27366a4cf2ab5e8
+  sha256: 837a5e2ff850c9a7198a7450dbdc36f3355a1a124d75f1905ccb00553c16eff3
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ requirements:
     - python-pptx >=0.6.21
     - pillow >=10.0
     - cairosvg >=2.7
-    - pyyaml >=6.0 
+    - pyyaml >=6.0
     - netcdf4 >=1.6.0
 
 
